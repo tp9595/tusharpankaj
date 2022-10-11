@@ -18,7 +18,7 @@ public class keyaction {
 		
 		driver.get("https://demoqa.com/automation-practice-form");
 		WebElement  fg =driver.findElement(By.id("firstName"));
-		fg.sendKeys("tushar");
+		fg.sendKeys("tus");
 		Actions gh= new Actions(driver);
 		gh.sendKeys(Keys.chord(Keys.CONTROL ,"C")).perform();
 		gh.sendKeys(Keys.TAB).perform();
